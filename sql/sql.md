@@ -34,6 +34,23 @@ Microsoft SQLserver .net sitelerinde
  
 
 
+|Örnek Kod|Açıklama|
+|------------------------|-----------------------------------------------------------|
+| Elma getir         | Select Elma from Manav| 
+| Tüm elmaları getir | Select * from Manav|
+| Tüm meyvelerden bir çeşit getir | Select Distinct Meyve * from Manav|
+| 1 kilo elma verin | Select Elma from Manav Where kg=5|
+|çilekleri meyve bölümüne yerleştirip fiyatı 50 yazın | INSERT INTO meyve (meyve_türü, adet) VALUES ('çilek', 50);|
+|meyveleredn muz olanların fiyatını 15 yap |UPDATE meyve_sepeti SET fiyat = 15 WHERE meyve_türü = 'muz';|
+|kavunları kaldır|DELETE FROM meyve_sepeti WHERE meyve_türü = 'kavun';|
+|tropikal meyveleri ekle |CREATE TABLE tropikal_meyveler (  meyve_türü NVARCHAR(50),  fiyat DECIMAL(18, 0));|
+
+
+
+
+
+
+
 
 
 
