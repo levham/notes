@@ -4,3 +4,4 @@
 | 📂 Sayfalar | 📌 Açıklama|
 |---------------|-------------------|
 | **Git**     | [_Git Snippet_](git/Git1.md)<br>[_Git Hakkında_](git/Git2.md)| 
+| **Csharp**     | [_Csharp Hakkında_](c#/cs1.md) | 
